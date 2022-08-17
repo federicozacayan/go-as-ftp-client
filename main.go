@@ -27,7 +27,7 @@ func main() {
 		panic(err)
 	}
 
-	if err := client.Login("user", "secret"); err != nil {
+	if err := client.Login("user_name", "secret_password"); err != nil {
 		panic(err)
 	}
 
